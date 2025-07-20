@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Hustle World University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-template" data-hero-image="background-full">
+  <header class="header js-header">
+    <div class="container wrapper flex is-rel header__inner">
+      <a class="header__brand nav-current" href="/">
+        <picture>
+          <source srcset="/images/logo.png" type="image/webp">
+          <img src="/images/logo.png" alt="Hustle World University" width="120">
+        </picture>
+      </a>
+      <nav class="header__menu items-center">
+        <ul class="nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/courses">Courses</a></li>
+          <li><a href="/community">Community</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/signin">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero is-home flex flex-col" data-cover-image="true">
+    <div class="hero__content flex flex-col">
+      <h1 class="hero__title">Ownership. Knowledge. Execution.</h1>
+      <p class="hero__description">Empowering a new generation of entrepreneurs, traders, and builders.</p>
+      <a href="/courses" class="btn btn--brand">VIEW COURSES</a>
+    </div>
+  </section>
+
+  <section class="section section-resources" id="resources">
+    <div class="resources">
+      <h2>Popular Courses</h2>
+      <div class="resource-grid">
+        <article class="resource-card has-img">
+          <a href="/courses/crypto-trading-101">
+            <figure class="resource-card__media">
+              <img src="/images/crypto-trading.jpg" alt="Crypto Trading 101">
+            </figure>
+            <div class="resource-card__content">
+              <h3>Crypto Trading 101</h3>
+              <p>Learn how to read charts, identify patterns, and trade confidently in the crypto markets.</p>
+            </div>
+          </a>
+        </article>
+        <article class="resource-card has-img">
+          <a href="/courses/build-a-business">
+            <figure class="resource-card__media">
+              <img src="/images/build-a-business.jpg" alt="Build a Business">
+            </figure>
+            <div class="resource-card__content">
+              <h3>Build a Business from Scratch</h3>
+              <p>From ideation to execution, launch a scalable online business with real-world strategies.</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Hustle World University</p>
+      <ul class="footer-links">
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
